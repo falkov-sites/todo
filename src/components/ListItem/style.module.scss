@@ -1,0 +1,22 @@
+.link {
+  color: rgb(17, 0, 255);
+  text-decoration: none;
+}
+
+.done {
+  color: rgb(46, 119, 46);
+
+  &::before {
+    content: '✅';
+    margin-right: 8px;
+  }
+}
+
+.notDone {
+  color: rgb(137, 0, 0);
+
+  &::before {
+    content: '⁉️';
+    margin-right: 8px;
+  }
+}

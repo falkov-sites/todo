@@ -16,14 +16,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 40px;
 }
 
 .link {
   text-decoration: none;
-  padding: 10px;
+  padding: 2px 10px;
   color: #fff;
 }
 
 .link_active {
-  color: #ffffff33;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
 }
